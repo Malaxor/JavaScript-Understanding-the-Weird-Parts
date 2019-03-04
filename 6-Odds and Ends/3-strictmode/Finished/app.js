@@ -1,3 +1,5 @@
+'use strict'
+
 function logNewPerson() {
     "use strict";
     
@@ -8,5 +10,6 @@ function logNewPerson() {
 
 var person;
 persom = {};
+
 console.log(persom);
 logNewPerson();

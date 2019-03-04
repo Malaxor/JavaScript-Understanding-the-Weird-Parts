@@ -1,10 +1,8 @@
-function greet(whattosay) {
+const greetName = function(whatToSay) {
 
    return function(name) {
-       console.log(whattosay + ' ' + name);
+       console.log(`${whatToSay}, ${name}.`);
    }
+}('Hello');
 
-}
-
-var sayHi = greet('Hi');
-sayHi('Tony');
+greetName('Tony');

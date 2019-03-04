@@ -7,12 +7,14 @@ function Person(firstname, lastname) {
     
 }
 
-Person.prototype.getFullName = function() {
+Person.prototype.getFullName = () => {
     return this.firstname + ' ' + this.lastname;   
 }
 
 var john = new Person('John', 'Doe');
 console.log(john);
+console.log(john.getFullName());
+
 
 var jane = new Person('Jane', 'Doe');
 console.log(jane);
@@ -22,7 +24,3 @@ Person.prototype.getFormalFullName = function() {
 }
 
 console.log(john.getFormalFullName());
-
-
-
-

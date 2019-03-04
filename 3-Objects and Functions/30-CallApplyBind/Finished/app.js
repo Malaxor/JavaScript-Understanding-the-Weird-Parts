@@ -1,3 +1,4 @@
+
 var person = {
     firstname: 'John',
     lastname: 'Doe',
@@ -41,7 +42,7 @@ console.log(person.getFullName.apply(person2));
 
 // function currying
 function multiply(a, b) {
-    return a*b;   
+    return a * b;   
 }
 
 var multipleByTwo = multiply.bind(this, 2);

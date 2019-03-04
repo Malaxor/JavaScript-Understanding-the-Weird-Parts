@@ -1,4 +1,6 @@
+
 var Tony = { 
+    
     firstname: 'Tony', 
     lastname: 'Alicea',
     address: {
@@ -22,4 +24,3 @@ greet({
 Tony.address2 = {
     street: '333 Second St.'
 }
-

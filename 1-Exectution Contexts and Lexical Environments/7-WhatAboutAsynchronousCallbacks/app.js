@@ -12,6 +12,5 @@ function clickHandler() {
 // listen for the click event
 document.addEventListener('click', clickHandler);
 
-
 waitThreeSeconds();
 console.log('finished execution');
