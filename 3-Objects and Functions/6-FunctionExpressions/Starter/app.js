@@ -13,6 +13,6 @@ function log(a) {
 	a();
 }
 
-log(function() {
+log(() => {
 	console.log('log function');
 });
