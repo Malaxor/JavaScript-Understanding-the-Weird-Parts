@@ -9,7 +9,6 @@ function greet(firstname, lastname, language) {
     if (language === 'es') {
         console.log('Hola ' + firstname + ' ' + lastname);   
     }
-    
 }
 
 function greetEnglish(firstname, lastname) {
