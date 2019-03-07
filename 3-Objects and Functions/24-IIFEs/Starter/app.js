@@ -9,7 +9,9 @@ console.log(greeting);
 
 var firstName = 'Johnny';
 
+// IIFE
 (function(name) {
+	
 	var greeting = 'Hello';
    console.log(`${greeting}, ${name}. I'm a function expression.`)
 }(firstName));
