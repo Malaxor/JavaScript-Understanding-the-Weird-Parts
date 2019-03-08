@@ -8,10 +8,8 @@ function makeGreeting(language) {
 
         if (language === 'es') {
             console.log('Hola ' + firstname + ' ' + lastname);   
-        }
-        
+        }  
     }
-    
 }
 
 var greetEnglish = makeGreeting('en');
