@@ -41,7 +41,7 @@ const person2 = {
 };
 console.log(person.getFullName.apply(person2));
 
-// function currying (creating a copy of a function with preset parameters)
+// function currying (creating a copy of a function; presetting its parameters)
 function multiply(a, b) {
 
    return a * b;
