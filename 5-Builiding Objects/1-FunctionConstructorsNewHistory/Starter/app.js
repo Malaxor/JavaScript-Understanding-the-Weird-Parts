@@ -1,8 +1,14 @@
 
-function Person() {
+function Person(firstName, lastName) {
 
-    this.firstName = 'John';
-    this.lastName = 'Doe';
+	console.log(this);
+   this.firstName = firstName;
+	this.lastName = lastName;
+	console.log('This function is being invoked');
 }
 
-const john = new Person();
+const john = new Person('John', 'Doe');
+console.log(john);
+
+const jane = new Person('Jane', 'Doe');
+console.log(jane);
