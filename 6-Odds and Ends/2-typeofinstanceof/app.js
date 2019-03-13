@@ -1,27 +1,27 @@
-var a = 3;
+
+const a = 3;
 console.log(typeof a);
 
-var b = "Hello";
+const b = 'Hello';
 console.log(typeof b);
 
-var c = {};
+const c = {};
 console.log(typeof c);
 
-var d = [];
-console.log(typeof d); // weird!
-console.log(Object.prototype.toString.call(d)); // better!
+const d = [];
+console.log(typeof d);
+console.log(Object.prototype.toString.call(d));
 
 function Person(name) {
-    this.name = name;
+   this.name = name;
 }
 
-var e = new Person('Jane');
+const e = new Person('Jane');
 console.log(typeof e);
 console.log(e instanceof Person);
 
-console.log(typeof undefined); // makes sense
-console.log(typeof null); // a bug since, like, forever...
+console.log(typeof undefined);
+console.log(typeof null);
 
-var z = function() { };
+const z = function() {};
 console.log(typeof z);
-
