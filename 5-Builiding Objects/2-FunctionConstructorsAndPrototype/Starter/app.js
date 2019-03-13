@@ -1,9 +1,7 @@
 function Person(firstname, lastname) {
  
-	console.log(this);
 	this.firstname = firstname;
 	this.lastname = lastname;
-	console.log('This function is invoked.');
 }
 
 Person.prototype.getFullName = function() {

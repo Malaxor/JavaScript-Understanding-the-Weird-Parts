@@ -34,7 +34,7 @@ const jim = {
 	getFirstName() {
 		return firstName;
 	}
-}
+};
 
 _.extend(john, jane, jim);
 console.log(john);
